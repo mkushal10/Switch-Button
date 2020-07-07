@@ -1,0 +1,20 @@
+<!DOCTYPE html>  
+<html>
+<head>
+	<title>Switch Button</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="jquery.js"></script>
+</head>
+<body>
+	<div class="wrapper" align="center">
+		<div class="switch"></div>
+	</div>
+</body>
+<script>
+	$(document).ready(function(){
+		$('.switch').click(function(){
+			$(this).toggleClass("switchOn");
+		});
+	});
+</script>
+</html>  
